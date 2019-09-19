@@ -33,7 +33,7 @@ production release.
 ```bash
 pip install openhtf
 ```
-
+Note: It might be neccesary to install libprotobuf-dev.
 
 ### Option 2: Installing from Source
 If you want to install from source instead (for example, if you want some new
