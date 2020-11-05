@@ -5,8 +5,8 @@ from openhtf.output.callbacks import json_factory
 from openhtf.plugs import user_input
 
 from openhtf import plugs
-# Import test plug
-from openhtf.plugs import test_plug_example
+# # Import test plug
+from openhtf.plugs import test_plug
 
 @htf.plug(tester=test_plug_example.TestPlug.placeholder)
 def test_plug(test, tester):
