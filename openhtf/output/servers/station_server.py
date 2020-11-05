@@ -20,7 +20,7 @@ import types
 import sockjs.tornado
 
 import openhtf
-from openhtf.output.callbacks import mfg_inspector
+# from openhtf.output.callbacks import mfg_inspector
 from openhtf.output.servers import pub_sub
 from openhtf.output.servers import web_gui_server
 from openhtf.util import conf
